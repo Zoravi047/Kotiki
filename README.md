@@ -1,5 +1,4 @@
-
-```html
+ВСЕМ ПРИВЕТ!!!
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,36 +38,3 @@
 </html>
 ```
 
-Code for `style.css`:
-
-```css
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-img {
-  margin: 10px;
-  border: 5px solid #ddd;
-  border-radius: 5px;
-  box-shadow: 0 0 5px #ddd;
-}
-```
-
-Code for `script.js` (this just makes the images spin when you hover over them):
-
-```javascript
-const images = document.querySelectorAll('img');
-
-images.forEach((img) => {
-  img.addEventListener('mouseover', () => {
-    img.style.transform = 'rotate(360deg)';
-    img.style.transition = 'transform 1s';
-  });
-
-  img.addEventListener('mouseout', () => {
-    img.style.transform = 'rotate(0deg)';
-    img.style.transition = 'transform 1s';
-  });
-});
